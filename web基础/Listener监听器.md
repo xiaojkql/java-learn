@@ -1,0 +1,6 @@
+Servlet规范中定义的一种特殊类
+对应观察者模式
+当时间发生时会自动触发该时间对应的Listener
+
+监听
+ServletContext HttpSession ServletRequest

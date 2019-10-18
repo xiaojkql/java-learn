@@ -1,0 +1,9 @@
+JavaBean 组件 
+- 对业务逻辑的封装， 提供可以重读利用的软件组件
+编码规范
+支持JavaBean的环境引擎
+属性 方法
+JavaBean就是副歌一定条件的Java类的实例
+对每个属性都有set和get方法
+对每个Boolean 都有 isXxx() setXxx()
+
