@@ -1,0 +1,11 @@
+h1{color:red; text-align: center;}
+p{color: blueviolet;text-align: left;}
+body{background-color: white;
+background-image: url('1.jpg');
+background-repeat: no-repeat;
+background-position: right top;
+margin-right: 1000px;
+
+letter-spacing: 10px;
+
+}
