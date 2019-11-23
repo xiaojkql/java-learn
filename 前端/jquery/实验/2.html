@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>第一个JQuery</title>
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").dblclick(function(){
+                    $("#test").hide();
+                });
+            });
+            $(document).ready(function(){
+                $("#p2").mouseenter(function(){
+                    alert("你的鼠标移动到了id为p1的元素上");
+                });
+            });
+            $(document).ready(function(){
+                $("p1").mouseleave(function(){
+                    alert("你的鼠标离开了该元素");
+                });
+            });
+            $(document).ready(function(){
+                $("#p1").mousedown(function(){
+                    alert("你的鼠标按下了此元素！");
+                });
+            });
+            $(document).ready(function(){
+                $("#p1").hover(function(){
+                    alert("进入");
+                });
+            });
+            $(document).ready(function(){
+                $("input").focus(function(){
+                    $(this).css("background-color","#cccccc");
+                });
+            });
+            $(document).ready(function(){
+                $("#hs").click(function(){
+                    $(this).toggle();
+                });
+            });
+            $("#fadein").click(function(){
+                $("#hs").fadeIn();
+            });
+        </script>
+    </head>
+    <body>
+        <p class="test">点我，我就会消失！！！</p>
+        <div id="hs">啊哈！通过id选择器来进行选择</div>
+        <button id="fadein">点击我</button>
+        <input type="text" name="fullename"><br>
+    </body>
+</html>
