@@ -1,0 +1,1 @@
+将delete_lastupdate.sh文件放在maven repository根目录下
