@@ -1,0 +1,3 @@
+编写特定的Controller来处理特定的异常
+注解为@ControllerAdvice
+方法注解为@ExceptionHandler
